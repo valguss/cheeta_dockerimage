@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  cheeta:
+    container_name: cheeta
+    build: ./ubuntu
+    volumes:
+      - ./:/root/host
